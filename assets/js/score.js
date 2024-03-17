@@ -13,7 +13,7 @@ function printHighscores() {
       liTag.textContent = highscores[i].initials + ' - ' + highscores[i].score;
   
       // display on page
-      var olEl = document.getElementById('highscores');
+      var olEl = document.getElementById('scores');
       olEl.appendChild(liTag);
     }
   }
