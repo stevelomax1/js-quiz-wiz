@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>JS Quiz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+   <div  class="wrapper">
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    
+      <div id="start-screen" class="start">
+        <h1>Javascript Quiz</h1>
+        <p>
+          Answer the upcoming Javascript questions within the designated time
+          limit. Remember that any wrong answers will cause your
+          time to be deducted by 15 seconds. Good Luck!
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
     
 </body>
 </html>
