@@ -47,10 +47,11 @@ body {
   li {
     padding: 5px;
     list-style: decimal inside none;
+    font-style: italic;
   }
   
   li:nth-child(odd) {
-    background-color: #f3edfc;
+    background-color: grey;
   }
   
   .wrapper {
@@ -70,10 +71,11 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+    font-style: italic;
   }
   
   .feedback {
-    font-style: italic;
+    font-style: bold;
     font-size: 120%;
     margin-top: 20px;
     padding-top: 10px;

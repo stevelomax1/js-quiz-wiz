@@ -1,34 +1,34 @@
 var questions = [
     {
-      title: 'Commonly used data types DO NOT include:',
-      choices: ['strings', 'booleans', 'alerts', 'numbers'],
-      answer: 'alerts',
+      title: 'Which one of the following is NOT a variable:',
+      choices: ['hey', 'let', 'var', 'const'],
+      answer: 'hey',
     },
     {
-      title: 'The condition in an if / else statement is enclosed within ____.',
-      choices: ['quotes', 'curly brackets', 'parentheses', 'square brackets'],
-      answer: 'parentheses',
+      title: 'A browser will interpret Javascript code:',
+      choices: ['upside down', 'diagonally', 'line by line', 'in pig latin'],
+      answer: 'line by line',
     },
     {
-      title: 'Arrays in JavaScript can be used to store ____.',
+      title: 'Javascript provides functionality and interactivity to a website.',
       choices: [
-        'numbers and strings',
-        'other arrays',
-        'booleans',
-        'all of the above',
+        'false',
+        'true',
+        'it depends',
+        'all the above',
       ],
-      answer: 'all of the above',
+      answer: 'true',
     },
     {
       title:
-        'String values must be enclosed within ____ when being assigned to variables.',
-      choices: ['commas', 'curly brackets', 'quotes', 'parentheses'],
-      answer: 'quotes',
+        'All inputs return as _____.',
+      choices: ['strings', 'food', 'animals', 'emojis'],
+      answer: 'strings',
     },
     {
       title:
-        'A very useful tool used during development and debugging for printing content to the debugger is:',
-      choices: ['JavaScript', 'terminal / bash', 'for loops', 'console.log'],
-      answer: 'console.log',
+        'The equal sign in Javascript means:',
+      choices: ['delete', 'merge', 'greater than', 'assign'],
+      answer: 'assign',
     },
   ];
